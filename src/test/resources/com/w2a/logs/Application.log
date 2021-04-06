@@ -1,0 +1,13 @@
+06/04/2021 12:49:45 devpinoyLogger Config File Loaded!!!
+06/04/2021 12:49:45 devpinoyLogger OR File Leaded !!!!
+06/04/2021 12:49:47 devpinoyLogger Chrome Browser Lunched
+06/04/2021 12:49:50 devpinoyLogger Navigated to: http://www.zoho.com
+06/04/2021 12:49:51 devpinoyLogger Clicking on the object: loginlink_XPATH
+06/04/2021 12:49:51 devpinoyLogger Clicking on: email_XPATH Typing as: mshahinqa@gmail.com
+06/04/2021 12:49:51 devpinoyLogger Clicking on the object: nextbutton_XPATH
+06/04/2021 12:49:52 devpinoyLogger Clicking on: password_XPATH Typing as: Shahin@10!
+06/04/2021 12:49:52 devpinoyLogger Clicking on the object: signinbutton_XPATH
+06/04/2021 12:49:59 devpinoyLogger Clicking on the object: crmlink_XPATH
+06/04/2021 12:49:59 devpinoyLogger Clicking on the object: accountslink_XPATH
+06/04/2021 12:50:01 devpinoyLogger Clicking on the object: createaccount_XPATH
+06/04/2021 12:50:01 devpinoyLogger Clicking on: accountname_XPATH Typing as: Mohammed Shahin Ahmed
