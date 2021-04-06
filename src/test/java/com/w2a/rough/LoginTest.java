@@ -11,7 +11,7 @@ import com.w2a.pages.crm.accounts.CreateAccountPage;
 public class LoginTest {
 
 	public static void main(String[] args) {
-
+		//EGit Testing 
 		HomePage home = new HomePage();
 		//DOING LOGIN
 		LoginPage lP = home.goToLogin();
