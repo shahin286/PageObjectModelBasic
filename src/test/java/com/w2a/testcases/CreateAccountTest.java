@@ -15,14 +15,13 @@ public class CreateAccountTest {
 
 	@Test(dataProviderClass = Utilities.class, dataProvider = "dp")
 	public void createAccountTest(Hashtable<String, String> data) {
-
-		ZohoAppPages zP = new ZohoAppPages();
 		
+		ZohoAppPages zP = new ZohoAppPages();
 		// GOING TO CRM PAGE
 		CRMHomePage cP = zP.goToCRM();
 		// VERIFYING THE CRM HOME TEXT
 		TopMenu tM = cP.verifyTextCRMHome();
-		// FROM TOPMENU CLICKING ON ACCOUNTS
+		// FROM TOP-MENU CLICKING ON ACCOUNTS
 		AccountsPage accPage = tM.goToAccounts();
 		// FROM ACCOUNT PAGE CLICKING ON CREATE NEW ACCOUNT
 		CreateAccountPage createAccPage = accPage.goToCreateAccounts();
