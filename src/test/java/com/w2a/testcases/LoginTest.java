@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest {
 	@Test(dataProviderClass=Utilities.class, dataProvider="dp")
 	public void loginTest(Hashtable<String, String> data) {
 		HomePage home = new HomePage();
-		// DOING LOGIN
+		// DOING LOGIN TEST
 		LoginPage lP = home.goToLogin();
 		lP.doLogin(data.get("username"), data.get("password"));
 		lP.successfulLoginVerification();
