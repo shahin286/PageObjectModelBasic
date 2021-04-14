@@ -21,7 +21,7 @@ public class LoginTest {
 		CRMHomePage cP = zP.goToCRM();
 		//VERIFYING THE CRM HOME TEXT
 		TopMenu tM = cP.verifyTextCRMHome();
-		//FROM TOPMENU CLICKING ON ACCOUNTS
+		//FROM TOPMENU CLICKING ON ACCOUNT
 		AccountsPage accPage = tM.goToAccounts();
 		//FROM ACCOUNT PAGE CLICKING ON CREATE NEW ACCOUNT
 		CreateAccountPage createAccPage = accPage.goToCreateAccounts();
